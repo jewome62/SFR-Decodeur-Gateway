@@ -1,0 +1,3 @@
+jewome62_sfr_by_pass_api_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: Jewome62SfrByPassApiBundle:Default:index }

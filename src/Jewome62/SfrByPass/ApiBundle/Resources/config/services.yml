@@ -1,0 +1,7 @@
+parameters:
+#    jewome62_sfr_by_pass_api.example.class: Jewome62\SfrByPass\ApiBundle\Example
+
+services:
+#    jewome62_sfr_by_pass_api.example:
+#        class: %jewome62_sfr_by_pass_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
