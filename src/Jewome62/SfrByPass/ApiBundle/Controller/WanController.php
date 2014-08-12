@@ -18,6 +18,8 @@ class WanController extends Controller
     }
     
     public function getInfo() {
-        return $this->render('Jewome62SfrByPassApiBundle:Wan:getInfo.xml.twig');
+        return $this->render('Jewome62SfrByPassApiBundle:Wan:getInfo.xml.twig',array(
+            'ipServer' => $this->getRequest()->server->get('SERVER_ADDR')
+        ));
     }
 }
