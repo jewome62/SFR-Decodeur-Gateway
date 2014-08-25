@@ -3,6 +3,8 @@
 namespace Jewome62\SfrByPass\ApiBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+
 
 class FtthController extends Controller
 {

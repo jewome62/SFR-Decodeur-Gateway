@@ -1,16 +1,9 @@
-jewome62_sfr_by_pass_api_system:
-    path:     ?method=system.{method}
-    defaults: { _controller: Jewome62SfrByPassApiBundle:System:index }
-    
-jewome62_sfr_by_pass_api_lan:
-    path:     ?method=lan.{method}
-    defaults: { _controller: Jewome62SfrByPassApiBundle:Lan:index }
-    
-jewome62_sfr_by_pass_api_wan:
-    path:     ?method=wan.{method}
-    defaults: { _controller: Jewome62SfrByPassApiBundle:Wan:index }
-    
-jewome62_sfr_by_pass_api_ftth:
-    path:     ?method=ftth.{method}
-    defaults: { _controller: Jewome62SfrByPassApiBundle:Ftth:index }
+jewome62_sfr_by_pass_api_global:
+    path:     /{method}
+    defaults: { _controller: Jewome62SfrByPassApiBundle:Global:index }
+    requirements:
+        method: (.*)
 
+jewome62_sfr_by_pass_api_test:
+    path:     test
+    defaults: { _controller: Jewome62SfrByPassApiBundle:Test:index }

@@ -1,4 +1,4 @@
 jewome62_sfr_by_pass_api:
     resource: "@Jewome62SfrByPassApiBundle/Resources/config/routing.yml"
-    prefix:   /api/1.0/
+    prefix:   /api/1.0
 
