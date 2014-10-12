@@ -3,7 +3,3 @@ jewome62_sfr_by_pass_api_global:
     defaults: { _controller: Jewome62SfrByPassApiBundle:Global:index }
     requirements:
         method: (.*)
-
-jewome62_sfr_by_pass_api_test:
-    path:     test
-    defaults: { _controller: Jewome62SfrByPassApiBundle:Test:index }

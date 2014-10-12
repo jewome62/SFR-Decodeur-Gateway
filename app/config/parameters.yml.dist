@@ -11,9 +11,12 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
-    locale:            en
+    locale:            fr
     secret:            ThisTokenIsNotSoSecretChangeIt
 
     debug_toolbar:          true
     debug_redirects:        false
     use_assetic_controller: true
+
+    ref_client:     ~
+    mac_address:    ~

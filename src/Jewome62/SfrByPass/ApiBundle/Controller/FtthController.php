@@ -4,12 +4,13 @@ namespace Jewome62\SfrByPass\ApiBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-
+use \Symfony\Component\DependencyInjection\ContainerInterface;
 
 class FtthController extends Controller
 {
-    public function indexAction($method)
+    public function indexAction(ContainerInterface $container,$method)
     {
+        $this->setContainer($container);
         switch($method){
             case 'getInfo' :
                 return $this->getInfo();
