@@ -1,0 +1,5 @@
+jewome62_sfr_by_pass_api_global:
+    path:     /{method}
+    defaults: { _controller: Jewome62SfrByPassApiBundle:Global:index }
+    requirements:
+        method: (.*)
